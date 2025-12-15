@@ -76,9 +76,7 @@ int main() {
 
     if (pilihan == 1) {
         printf("Menyiapkan quiz sejarah");
-        for (int i = 0; i < 3; i++) {
-        printf(".");
-        }
+    
         printf("\n");
         for (int i = 0; i < totalQuestions; i++) {
             printf("\n%s\n", quiz[i].question);
@@ -102,7 +100,7 @@ int main() {
             }
           printf("\nSkor akhir kamu: %d / %d\n", score, totalQuestions);
         }
-        
+
         if (score == totalQuestions) {
               printf("Luar biasa! Kamu pasti menyaksikan sejarahnya! \n");
             } 
@@ -117,13 +115,9 @@ int main() {
 
     else {
         printf("\nTerima kasih! Sampai jumpa.\n");
+        
         return 0;
     }
-
-
-    
-
-
    return 0;
 }
 
